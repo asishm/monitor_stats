@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+      <title>
+          {{ title }}
+      </title>
+  </head>
+
+  <body>
+    <h2>Basic system information</h2>
+    {% for data in system_data %}
+      <div><p>{{ data }}</p></div>
+    {% endfor %}
+  </body>
+
+</html>
